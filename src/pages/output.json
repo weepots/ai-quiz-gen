@@ -1,0 +1,4 @@
+{
+  "role": "assistant",
+  "content": "[\n {\n \"Question\": \"What is the primary benefit of using cloud computing?\",\n \"responses\": [\"Increased flexibility and scalability\", \"Lower cost\", \"Improved security\", \"Faster internet speeds\"],\n \"correct\": \"Increased flexibility and scalability\"\n },\n {\n \"Question\": \"What does SaaS stand for in cloud computing?\",\n \"responses\": [\"Software as a Solution\", \"Security as a Service\", \"Software as a Service\", \"Storage as a Service\"],\n \"correct\": \"Software as a Service\"\n },\n {\n \"Question\": \"What is a public cloud in cloud computing?\",\n \"responses\": [\"A cloud infrastructure used by only one organization\", \"A cloud infrastructure shared by multiple organizations\", \"A cloud infrastructure located on-premises\", \"A type of cloud that doesn't exist\"],\n \"correct\": \"A cloud infrastructure shared by multiple organizations\"\n }\n]"
+}
