@@ -99,7 +99,10 @@ export default function CreateQuizPage() {
     <div>
       <Navbar name="Create Quiz" />
       <div className="px-20 w-full">
-        <h6>Enter a topic, select a difficulty and number of questions between 1 and 10</h6>
+        <h6>
+          Enter a topic, select a difficulty between 1-10 and number of questions between 1 and 10. Click Generate GPT
+          Response when done!{" "}
+        </h6>
         <div className="flex flex-row justify-center">
           <TextInput onClick={onClickHandler} onChange={onChangeHandler} disabled={!isValid || isLoading} />
           {isLoading && (
